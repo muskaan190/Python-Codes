@@ -1,4 +1,5 @@
 # Given an integer n, calculate n-th fibonacci number
+# This is recursive algorithm to find n-th fibonacci number.
 
 
 def fibonacci(n):

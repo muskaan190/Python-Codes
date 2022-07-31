@@ -13,7 +13,7 @@ for i in range(test):
   z=[]
   while(start<=n):
   
-  # print(num)
+  
     if a[end] not in num:
       num[a[end]]=1
       count=count+1
@@ -31,9 +31,6 @@ for i in range(test):
 
     if(end>n):
       break
-
   
-
-  # print(num)
   print(max(z))
 

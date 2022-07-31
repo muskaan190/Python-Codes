@@ -18,5 +18,4 @@ for x in range(test):
       arr=arr+s[x-1]+str(count)
       count=1
     
-
   print(arr)

@@ -10,7 +10,7 @@ for i in range(test):
   n=l[0]
   count=1
   
-# window={a[0]:1}
+
   start=0
   end=0
 
@@ -28,11 +28,9 @@ for i in range(test):
       start=start+1
 
     else:
-      # print("Yes")
       break
 
     if(end>=n-1):
-      # print("No")
       break
 
   print(count)  
